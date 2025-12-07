@@ -259,17 +259,33 @@ main {
     left: 0px;
     padding-top: 100px !important;
 }    
+.sec2_left {
+    position: relative;
+}
 .sec2_left img {
-
     width: 760px;
     height: 700px;
     position: absolute;
-    z-index: -2;
-    
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.video-container {
+    position: absolute;
+    top: 200px;
+    right: 30px;
+    width: 670px;
+    z-index: 2;
+}
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 .sec2_right {
 
-    padding-top: 100px
+    padding-top: 100px;
+    padding-left: 50px;
 }
 .sec2_right .title-background {
     font-size: 103px;
